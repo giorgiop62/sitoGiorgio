@@ -1,0 +1,17 @@
+/* Sfondo sfumato */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    #1a1a1a 0%,
+    #2e2e2e 30%,
+    #595959 70%,
+    #d4d4d4 100%
+  );
+  /* Puoi aggiungere o modificare i colori per creare una sfumatura più simile */
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
