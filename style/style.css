@@ -1,17 +1,56 @@
-/* Sfondo sfumato */
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  background: linear-gradient(
-    90deg,
-    #1a1a1a 0%,
-    #2e2e2e 30%,
-    #595959 70%,
-    #d4d4d4 100%
-  );
-  /* Puoi aggiungere o modificare i colori per creare una sfumatura più simile */
-  background-attachment: fixed;
+.container {
+  background-image: url("./img/io.webp");
   background-size: cover;
+  height: 100vh;
+  font-family: "Comic Neue", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   color: white;
+}
+/* Navbar stile fumetto */
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+nav .logo {
+  font-family: "Bangers", sans-serif;
+  font-size: 2em;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: "Comic Neue", sans-serif;
+}
+
+nav ul li a:hover {
+  color: #ffbb006e;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.img {
+  width: 400px;
+  margin-top: 180px;
+}
+
+/*skill */
+.skills {
+  margin-top: 30px;
+  color: black;
 }
