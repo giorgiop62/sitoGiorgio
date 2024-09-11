@@ -37,6 +37,9 @@
                             <a class="nav-link" href="#skills">Hobby</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#ermes">Ermes</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item">
@@ -81,8 +84,7 @@
                 <!-- Card for HTML -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src=".//style/img/DALL·E 2024-09-11 18.04.09 - A visually striking image that evokes the world of computer science and technology. The scene features a futuristic digital environment with glowing c.webp"
-                            alt="HTML" class="card-img-top">
+                        <img src="./style/img/3.webp" alt="HTML" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Computer science</h5>
                             <p class="card-text">Full Stack Web Developer</p>
@@ -94,8 +96,7 @@
                 <!-- Card for CSS -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="./style/img/DALL·E 2024-09-11 18.03.13 - A detailed theater scene set in Naples with the grand Vesuvio volcano in the background. The theater should have classic Italian architecture, with a .webp"
-                            alt="CSS" class="card-img-top">
+                        <img src="./style/img/2.webp" alt="CSS" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Theatre</h5>
                             <p class="card-text">Amateur actor</p>
@@ -107,8 +108,7 @@
                 <!-- Card for JavaScript -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="./style/img/DALL·E 2024-09-11 18.05.18 - A vibrant image of a classic Neapolitan pizza in the heart of Naples. The scene captures the pizza on a traditional wooden table, topped with fresh to.webp"
-                            alt="JavaScript" class="card-img-top">
+                        <img src="./style/img/1.webp" alt="JavaScript" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Cooking</h5>
                             <p class="card-text">Home cook</p>
@@ -119,11 +119,45 @@
             </div>
         </div>
 
-        <!--gallery-->
+        <!-- Contact Section -->
+        <div class="ermes" id="ermes">
+            <h2>Ermes</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="ermes-text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio, eos quis provident
+                            temporibus amet! Dolores aspernatur dolorum consectetur in animi est odit, dolor tempore
+                            labore. Saepe nostrum magnam tenetur dolorem itaque et repellendus eaque aperiam
+                            necessitatibus suscipit, unde est? Ducimus saepe maiores explicabo eius veritatis dolores
+                            ratione sunt culpa. Consectetur possimus exercitationem doloremque veniam blanditiis
+                            quisquam magni ex est.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iusto earum deleniti
+                            corporis accusantium magni, quod esse necessitatibus eaque voluptate impedit quia dolorum
+                            officia exercitationem magnam ad eos repellat asperiores? Possimus, repellat asperiores
+                            assumenda blanditiis excepturi soluta consequatur voluptatibus dolores.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita minima nihil.
+                            Consectetur cum labore provident, harum ab, porro vitae tenetur exercitationem facere eos
+                            assumenda ad recusandae corporis quam fugiat ea. Libero quas assumenda ad doloremque illum!
+                            Odio labore illum quia id iusto, possimus nesciunt cumque enim, accusantium dolorum earum?
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ermes-text">
+                        <img class="img-ermes" src="./style/img/IMG_20240909_225442_689.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--gallery
         <div class="gallery" id="gallery">
             <h2>Gallery</h2>
             <div class="row">
-                <!-- Card for Image 1 -->
+                 Card for Image 1
                 <div class="col-md-4 mb-4">
                     <div class="card ">
                         <img src="./style/img/me stessso.jpg" alt="Image 1" class="card-img-top">
@@ -148,7 +182,36 @@
                 </div>
 
             </div>
+        </div>-->
+        <div class="gallery" id="gallery">
+            <h2>Gallery</h2>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./style/img/1.webp" class="d-block  w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./style/img/2.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./style/img/3.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
+
+
+
 
         <!-- Footer -->
         <footer class="footer py-4" id="contact">
@@ -182,7 +245,9 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
