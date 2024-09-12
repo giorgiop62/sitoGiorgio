@@ -59,16 +59,15 @@
                         <h1>ABOUT</h1>
                         <h2>I'm a Web Developer / Actor</h2>
                         <p>
-
-                            I am passionate about both technology and theatre, two worlds that may seem completely
-                            opposite, yet manage to coexist harmoniously in my life. On one hand, I love diving into
-                            innovation and exploring the potential of the digital world, while on the other, I dedicate
-                            myself to the magic of the stage, where emotions come to life. These two diverse realms
-                            enrich my creativity and shape the way I view the world.</p>
+                            I am passionate about both technology and theatre, two worlds that may seem completely opposite, yet
+                            manage to coexist harmoniously in my life. On one hand, I love diving into innovation and exploring the
+                            potential of the digital world, while on the other, I dedicate myself to the magic of the stage, where
+                            emotions come to life. These two diverse realms enrich my creativity and shape the way I view the world.
+                        </p>
                         <a href="#contact" class="btn btn-secondary">Contact Me</a>
                     </div>
                 </div>
-
+            
                 <!-- Sezione dell'immagine -->
                 <div class="col-md-6">
                     <div class="img">
@@ -76,48 +75,185 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Skills Section -->
+            
+        </div>            
         <div class="skills" id="skills">
             <h2>Hobby</h2>
             <div class="row">
-                <!-- Card for HTML -->
+                <!-- Card for Computer Science -->
                 <div class="col-md-4">
                     <div class="card">
                         <img src="./style/img/3.webp" alt="HTML" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Computer science</h5>
+                            <h5 class="card-title">Computer Science</h5>
                             <p class="card-text">Full Stack Web Developer</p>
-                            <a href="#" class="btn btn-secondary">Learn More</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#computerScienceModal">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
-
-                <!-- Card for CSS -->
+        
+                <!-- Card for Theatre -->
                 <div class="col-md-4">
                     <div class="card">
                         <img src="./style/img/2.webp" alt="CSS" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Theatre</h5>
-                            <p class="card-text">Amateur actor</p>
-                            <a href="#" class="btn btn-secondary">Learn More</a>
+                            <p class="card-text">Amateur Actor</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#theatreModal">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
-
-                <!-- Card for JavaScript -->
+        
+                <!-- Card for Cooking -->
                 <div class="col-md-4">
                     <div class="card">
                         <img src="./style/img/1.webp" alt="JavaScript" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Cooking</h5>
-                            <p class="card-text">Home cook</p>
-                            <a href="#" class="btn btn-secondary">Learn More</a>
+                            <p class="card-text">Home Cook</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#cookingModal">
+                                Learn More
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+ <!-- Modal for Computer Science -->
+<div class="modal fade" id="computerScienceModal" tabindex="-1" aria-labelledby="computerScienceModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="computerScienceModalLabel">Computer Science</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./style/img/me stessso.jpg" alt="Theatre" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <P>
+                            I am a web developer with experience in React and Laravel. I currently work for Recrea, where I am responsible for redesigning management software to improve functionality and user experience. I completed my training through the Boolean course and have contributed to several projects:
+                           
+                        </P>
+                        
+                        </div>
+                        <div class="progetti">
+                            <ul class="list-group text-center mb-4">
+                                <li><a href="https://www.alfredopumilia.com/">https://www.alfredopumilia.com/</a></li>
+                                <li><a href="https://alessandraabet.com/">https://alessandraabet.com/</a></li>
+                                <li><a href="https://www.maydaymassage.it/">https://www.maydaymassage.it/</a></li>
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+                    <div class="">
+                        <h6>Competenze:</h6>
+                      <div class="list">
+                        <ul class="d-flex  flex-wrap">
+                            <li>Laravel</li>
+                            <li>PHP</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>SQL</li>
+                            <li>Photoshop</li>
+                            <li>React</li>
+                            <li>Vue</li>
+                            <li>Canva</li>
+                            </ul>
+                      </div>
+
+                    </div>
+                    
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Theatre -->
+<div class="modal fade" id="theatreModal" tabindex="-1" aria-labelledby="theatreModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="theatreModalLabel">Theatre</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./style/img/teatro.jpeg" alt="Theatre" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                I have been practicing theater for 5 years, starting with the Ribalta company in Pisa, and now continuing with the Libera Accademia in Arezzo. The most successful plays I have been part of include *The Merry Wives of Windsor* and *Christmas at the Cupiello's*. Additionally, I had the opportunity to appear as an extra in the film *2024 Battlefield* by Gianni Amelio.</p>
+                        </div>
+                    </div>
+                    <div class="Caratteristiche">
+                        <h6>Caratteristiche:</h6>
+                        <div class="list">
+                            <ul class="d-flex  flex-wrap">
+                                <li>Altezza: 1.81 -</li>
+                                <li>Circonferenza: 58cm -</li>
+                                <li>Scarpe: 42 -</li>
+                                <li>Vita:42cm -</li>
+                                <li>Petto: 40cm -</li>
+                                <li>Peso: 65 kg -</li>
+                                <li>Occhi: castani -</li>
+                                <li>Capelli: castani</li>
+                                </ul>
+                          </div>
+                        
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Cooking -->
+<div class="modal fade" id="cookingModal" tabindex="-1" aria-labelledby="cookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cookingModalLabel">Cooking</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./style/img/teatro.jpeg" alt="Theatre" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat distinctio eaque atque dicta repellat libero odit dignissimos quo, modi adipisci?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat distinctio eaque atque dicta repellat libero odit dignissimos quo, modi adipisci?</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
 
         <!-- Contact Section -->
         <div class="ermes" id="ermes">
