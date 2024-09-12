@@ -21,15 +21,15 @@
 <body>
     <div class="container">
         <!-- Navbar di Bootstrap -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="#">Giorgio Perez</a>
+                <a class="navbar-brand logo mx-auto" href="#">Giorgio Perez</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
@@ -54,7 +54,7 @@
         <div class="main" id="about">
             <div class="row align-items-center justify-content-center">
                 <!-- Sezione del testo -->
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <div class="main-text">
                         <h1>ABOUT</h1>
                         <h2>I'm a Web Developer / Actor</h2>
@@ -62,24 +62,25 @@
                             I am passionate about both technology and theatre, two worlds that may seem completely opposite, yet
                             manage to coexist harmoniously in my life. On one hand, I love diving into innovation and exploring the
                             potential of the digital world, while on the other, I dedicate myself to the magic of the stage, where
-                            emotions come to life. These two diverse realms enrich my creativity and shape the way I view the world.
+                            emotions come to life.
                         </p>
                         <a href="#contact" class="btn btn-secondary">Contact Me</a>
                     </div>
                 </div>
             
                 <!-- Sezione dell'immagine -->
-                <div class="col-md-6">
+                <div class="col-md-6 text-center">
                     <div class="img">
-                        <img src="./style/img/iii.png" alt="Web Developer" class="img-fluid">
+                        <img src="./style/img/iii.png" alt="Web Developer" class="img-fluid mx-auto d-block">
                     </div>
                 </div>
             </div>
-            
-        </div>            
-        <div class="skills" id="skills">
+        </div>
+
+        <!-- Hobby Section -->
+        <div class="skills " id="skills">
             <h2>Hobby</h2>
-            <div class="row">
+            <div class="row justify-content-center">
                 <!-- Card for Computer Science -->
                 <div class="col-md-4">
                     <div class="card">
@@ -94,7 +95,7 @@
                         </div>
                     </div>
                 </div>
-        
+
                 <!-- Card for Theatre -->
                 <div class="col-md-4">
                     <div class="card">
@@ -109,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-        
+
                 <!-- Card for Cooking -->
                 <div class="col-md-4">
                     <div class="card">
@@ -126,8 +127,7 @@
                 </div>
             </div>
         </div>
-
- <!-- Modal for Computer Science -->
+         <!-- Modal for Computer Science -->
 <div class="modal fade" id="computerScienceModal" tabindex="-1" aria-labelledby="computerScienceModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -248,14 +248,46 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="./style/img/teatro.jpeg" alt="Theatre" class="img-fluid">
+                    <div class="col-md-4">
+                        <img src="./style/img/DALL·E 2024-09-12 16.20.54 - A plate of traditional Genoese pesto pasta, served with fresh basil leaves, grated Parmesan cheese, and pine nuts on top, with a rich green pesto sauc.webp" alt="Cooking" class="img-fluid">
+                        <p>Pasta e zucchine</p>
                         </div>
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat distinctio eaque atque dicta repellat libero odit dignissimos quo, modi adipisci?</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat distinctio eaque atque dicta repellat libero odit dignissimos quo, modi adipisci?</p>
+                        <div class="col-md-4">
+                        <img src="./style/img/DALL·E 2024-09-12 16.21.04 - A plate of traditional Italian pasta with potatoes and provola cheese. The dish is creamy, with the cheese melted and mixing with the soft, golden pot.webp" alt="" class="img-fluid">
+                        <p>Pasta e patate</p>
                         </div>
+                        <div class="col-md-4">
+                            <img src="./style/img/DALL·E 2024-09-12 16.21.15 - A plate of creamy risotto with pumpkin, served in a deep white dish. The risotto is bright orange, with tender chunks of roasted pumpkin, topped with .webp" alt=""  class="img-fluid">
+                            <p>Genovese</p>
                     </div>
+                    <div class="col-md-4">
+                        <img src="./style/img/DALL·E 2024-09-12 16.20.54 - A plate of traditional Genoese pesto pasta, served with fresh basil leaves, grated Parmesan cheese, and pine nuts on top, with a rich green pesto sauc.webp" alt="Cooking" class="img-fluid">
+                        <p>Pasta e zucchine</p>
+                        </div>
+                        <div class="col-md-4">
+                        <img src="./style/img/DALL·E 2024-09-12 16.21.04 - A plate of traditional Italian pasta with potatoes and provola cheese. The dish is creamy, with the cheese melted and mixing with the soft, golden pot.webp" alt="" class="img-fluid">
+                        <p>Pasta e patate</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./style/img/DALL·E 2024-09-12 16.21.15 - A plate of creamy risotto with pumpkin, served in a deep white dish. The risotto is bright orange, with tender chunks of roasted pumpkin, topped with .webp" alt=""  class="img-fluid">
+                            <p>Genovese</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./style/img/DALL·E 2024-09-12 16.20.54 - A plate of traditional Genoese pesto pasta, served with fresh basil leaves, grated Parmesan cheese, and pine nuts on top, with a rich green pesto sauc.webp" alt="Cooking" class="img-fluid">
+                        <p>Pasta e zucchine</p>
+                        </div>
+                        <div class="col-md-4">
+                        <img src="./style/img/DALL·E 2024-09-12 16.21.04 - A plate of traditional Italian pasta with potatoes and provola cheese. The dish is creamy, with the cheese melted and mixing with the soft, golden pot.webp" alt="" class="img-fluid">
+                        <p>Pasta e patate</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./style/img/DALL·E 2024-09-12 16.21.15 - A plate of creamy risotto with pumpkin, served in a deep white dish. The risotto is bright orange, with tender chunks of roasted pumpkin, topped with .webp" alt=""  class="img-fluid">
+                            <p>Genovese</p>
+                    </div>
+                    
+                </div>
+
+                  
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -264,7 +296,6 @@
     </div>
 </div>
 
-        
 
         <!-- Contact Section -->
         <div class="ermes" id="ermes">
@@ -273,76 +304,41 @@
                 <div class="col-md-8">
                     <div class="ermes-text">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio, eos quis provident
-                            temporibus amet! Dolores aspernatur dolorum consectetur in animi est odit, dolor tempore
-                            labore. Saepe nostrum magnam tenetur dolorem itaque et repellendus eaque aperiam
-                            necessitatibus suscipit, unde est? Ducimus saepe maiores explicabo eius veritatis dolores
-                            ratione sunt culpa. Consectetur possimus exercitationem doloremque veniam blanditiis
-                            quisquam magni ex est.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iusto earum deleniti
-                            corporis accusantium magni, quod esse necessitatibus eaque voluptate impedit quia dolorum
-                            officia exercitationem magnam ad eos repellat asperiores? Possimus, repellat asperiores
-                            assumenda blanditiis excepturi soluta consequatur voluptatibus dolores.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita minima nihil.
-                            Consectetur cum labore provident, harum ab, porro vitae tenetur exercitationem facere eos
-                            assumenda ad recusandae corporis quam fugiat ea. Libero quas assumenda ad doloremque illum!
-                            Odio labore illum quia id iusto, possimus nesciunt cumque enim, accusantium dolorum earum?
-                        </p>
-
+                            I couldn't not tell you about Ermes, my inseparable friend for the past 7 years. Our bond goes beyond that of a man and his dog; it's something special and unique that has deeply shaped who I am. Ermes has been by my side through the happiest and the hardest times, with his silent but constant presence, always ready to make me smile with just a look.
+                            
+                            His free-spirited and playful nature has taught me to appreciate the little things in life, to live in the moment, and to find joy in the most ordinary days. Every step we take together reminds me how important it is to have someone who understands you without needing words. For this reason, I want to dedicate a special section of this website to him: anyone who knows me must also get to know Ermes, because he has changed the course of my life in ways I never imagined.
+                            
+                            Ermes is not just a dog; he is a part of me. It’s thanks to him that I’ve learned the strength of loyalty, the importance of companionship, and the beauty of unconditional love, given freely without expecting anything in return. He’s a friend, a companion in adventures, and a constant source of inspiration.
+                            </p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="ermes-text">
-                        <img class="img-ermes" src="./style/img/IMG_20240909_225442_689.jpg" alt="">
-
-                    </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-ermes img-fluid" src="./style/img/IMG_20240909_225442_689.jpg" alt="">
                 </div>
             </div>
         </div>
 
-        <!--gallery
-        <div class="gallery" id="gallery">
-            <h2>Gallery</h2>
-            <div class="row">
-                 Card for Image 1
-                <div class="col-md-4 mb-4">
-                    <div class="card ">
-                        <img src="./style/img/me stessso.jpg" alt="Image 1" class="card-img-top">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="./style/img/IMG_20240909_225442_689.jpg" alt="Image 1" class="card-img-top">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="./style/img/WhatsApp Image 2024-09-02 at 11.58.01.jpeg" alt="Image 1"
-                            class="card-img-top">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="./style/img/DALL·E 2024-09-11 18.05.18 - A vibrant image of a classic Neapolitan pizza in the heart of Naples. The scene captures the pizza on a traditional wooden table, topped with fresh to.webp"
-                            alt="Image 1" class="card-img-top">
-                    </div>
-                </div>
-
-            </div>
-        </div>-->
-        <div class="gallery" id="gallery">
+        <!-- Gallery Section -->
+        <div class="gallery " id="gallery">
             <h2>Gallery</h2>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./style/img/1.webp" class="d-block  w-100" alt="...">
+                        <img src="./style/img/nessunoescluso2.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./style/img/2.webp" class="d-block w-100" alt="...">
+                        <img src="./style/img/Napoli-1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./style/img/3.webp" class="d-block w-100" alt="...">
+                        <img src="./style/img/DALL·E 2024-09-12 17.05.31 - A wide image of a classic theater stage with red velvet curtains, golden accents, and ornate architectural details. The stage is illuminated by warm s.webp" class="d-block w-100" alt="...">
                     </div>
+                    <div class="carousel-item">
+                        <img src="./style/img/DALL·E 2024-09-12 17.05.56 - A wide image of a modern computer setup on a sleek desk, featuring a large monitor displaying code, a keyboard with RGB lighting, and a mouse. The roo.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./style/img/DALL·E 2024-09-12 17.06.33 - A wide image of several dogs playing together in a green park, featuring a playful black Labrador at the center. The dogs are running around happily, .webp" class="d-block w-100" alt="...">
+                    </div>
+                    
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="prev">
@@ -357,40 +353,27 @@
             </div>
         </div>
 
-
-
-
         <!-- Footer -->
         <footer class="footer py-4" id="contact">
             <h4>Contact</h4>
-
             <div class="d-flex justify-content-between align-items-center flex-wrap mt-3">
-                <!-- Contatti -->
                 <div class="contact-info">
                     <p><i class="fas fa-envelope"></i> Email: giorgiop62@gmail.com</p>
                     <p><i class="fas fa-phone"></i> Numero: +39 3505255178</p>
                     <p><i class="fas fa-map-marker-alt"></i> Posizione: Arezzo</p>
                 </div>
-                <!-- Social Media -->
                 <div class="social-media d-flex">
                     <a href="#" class="btn btn-secondary mx-2"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="btn btn-secondary mx-2"><i class="fab fa-instagram"></i></a>
-                    <a href="" class="btn btn-secondary mx-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="btn btn-secondary mx-2"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="btn btn-secondary mx-2"><i class="fab fa-github"></i></a>
-
                 </div>
             </div>
             <div class="text-center mt-3">
                 <p>&copy; 2024 Your Website. All rights reserved.</p>
             </div>
-
         </footer>
-
-
-
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

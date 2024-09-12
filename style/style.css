@@ -11,6 +11,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   color: white;
   background-color: black;
+  font-family: "Comic Neue", sans-serif;
 }
 
 /* Navbar stile fumetto */
@@ -61,6 +62,9 @@ nav ul li a:hover {
 /*skill */
 .skills {
   margin-top: 30px;
+  color: white;
+}
+.card {
   color: black;
 }
 
@@ -83,7 +87,6 @@ nav ul li a:hover {
 
 .carousel-inner img {
   height: 400px;
-  /* Puoi cambiare questa altezza in base alle tue necessità */
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
@@ -95,6 +98,7 @@ nav ul li a:hover {
   padding: 10px;
   font-family: "Comic Neue", sans-serif;
 }
+
 .modal {
   color: black;
   font-family: "Comic Neue", sans-serif;
@@ -104,7 +108,41 @@ nav ul li a:hover {
 ul {
   list-style-type: none;
 }
+
 .list ul li {
-  margin: 6px 10px; /* Margine verticale di 10px e orizzontale di 20px */
-  list-style: none; /* Rimuove i puntini della lista */
+  margin: 6px 10px;
+  list-style: none;
+}
+
+/* Imposta una larghezza massima e centralizza il contenuto */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Centra il contenuto su dispositivi mobili */
+@media (max-width: 768px) {
+  .main,
+  .skills,
+  .footer,
+  .gallery,
+  .ermes {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
 }
